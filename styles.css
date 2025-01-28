@@ -16,6 +16,43 @@ h1 {
     margin-right: 10px; 
     font-size: 25px;
 }
+.social-media-links {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+.social-media-links {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+}
+
+.social-media-links li {
+    margin-left: 30px; 
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 18px; 
+}
+
+.social-media-links i {
+    margin-right: 5px;
+}
+.container {
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 50px; 
+}
+i {
+    margin-left: 10px; 
+    font-size: 30px; 
+}
 
 
 @media (max-width: 600px) {

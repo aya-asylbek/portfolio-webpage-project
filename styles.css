@@ -2,11 +2,13 @@ img {
     max-width: 300px;
     border-radius: 10px; 
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
+    font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
 h1 {
     color: #339736;
 }

@@ -2,3 +2,26 @@ img {
     max-width: 300px;
     border-radius: 10px; 
 }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1 {
+    color: #339736;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}

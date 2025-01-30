@@ -1,7 +1,4 @@
-img {
-    max-width: 300px;
-    border-radius: 10px; 
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 body {
@@ -12,7 +9,6 @@ body {
 }
 h1 {
     color: hsl(182, 75%, 44%);
-    /*border: 2px solid;*/
     padding: 10px;
 }
 .social-media-links i {
@@ -89,7 +85,7 @@ i {
 }
 .profile-img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius:8px;
 }
 .formLabel{
     width:80px;

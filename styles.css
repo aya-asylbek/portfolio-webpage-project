@@ -111,7 +111,10 @@ i {
     align-items: center;
     gap: 10px; 
 }
+*/Change display property*/
 .about {
     display: grid; 
-    grid-template-columns: 1fr 1fr; /* Define grid columns */
+    grid-template-columns: 1fr 1fr; 
+    font-size: 1rem;
+    line-height: 1.6;
 }

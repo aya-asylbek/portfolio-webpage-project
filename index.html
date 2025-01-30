@@ -9,16 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <nav id ="desktop-nav">
-        <div class ="logo">Aya Asylbek</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="about me">About</a></li>
-                <li><a href="Projects">Projects</a></li>
-                <li><a href="Contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
     <header>
         <div class="container">
             <h1>Hi,my name is Aya!<i class="fa-solid fa-hand-wave"></i></h1>
@@ -35,22 +25,29 @@
     <section id="my-photo"class="grid-item">
         <img src="my-photo.jpg" alt="my-photo" class="profile-img">
     </section>
-    <!--Connect with Me-->
-    <section id="social-media-links" class="grid-item">
-        <h3>Connect with Me</h3>
-        <div class="social-media-grid">
-            <a href="https://www.linkedin.com/in/aya-asylbek/" target="_blank" class="social-link">
+    <!-- Connect with Me -->
+<section id="social-media-links" class="grid-item">
+    <h3>Connect with Me</h3>
+    <ul class="social-list">
+        <li>
+            <a href="https://www.linkedin.com/in/aya-asylbek/" target="_blank" class="btn btn-primary">
                 <i class="fa-brands fa-linkedin"></i> LinkedIn
             </a>
-            <a href="https://github.com/aya-asylbek" target="_blank" class="social-link">
+        </li>
+        <li>
+            <a href="https://github.com/aya-asylbek" target="_blank" class="btn btn-dark">
                 <i class="fa-brands fa-github"></i> GitHub
             </a>
-            <a href="mailto:aichurek0990@gmail.com" class="social-link">
+        </li>
+        <li>
+            <a href="mailto:aichurek0990@gmail.com" class="btn btn-danger">
                 <i class="fa-solid fa-envelope"></i> Email
             </a>
-        </div>
-    </section>
-    <!--HTML form-->
+        </li>
+    </ul>
+</section>
+
+    <!--Hire me-->
     <section id="hire-me" class="grid-item">
         <h3>Hire Me</h3>
         <form>
@@ -71,6 +68,7 @@
                 <input id="address" type="text"placeholder="Enter your address">
             </div>
             <div>
+                <!--Button Submit-->
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </form>

@@ -11,7 +11,7 @@ body {
         
       }
 h1 {
-    color: #339736;
+    color: #39a59e;
 }
 .social-media-links i {
     margin-right: 10px; 
@@ -91,4 +91,20 @@ i {
 .formLabel{
     width:80px;
     display: inline-block;
+}
+.social-list {
+    list-style: none; 
+    padding: 0;
+}
+
+.social-list li {
+    margin: 20px 0; 
+}
+
+.social-list .btn {
+    width: 200px; 
+    text-align: left; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
 }

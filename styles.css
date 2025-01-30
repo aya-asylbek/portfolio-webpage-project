@@ -45,7 +45,7 @@ h1 {
     text-align: center; 
     padding: 20px; 
     margin-top: 50px; 
-    border:2px solid #83f0ed;
+    border:2px solid #bff5ff;
 }
 i {
     margin-left: 10px; 
@@ -119,11 +119,11 @@ i {
     line-height: 1.6;
 }
 div.container{
-    background-color: #83f0ed;
+    background-color: #c8f2ff;
 }
 html{
-    background-color: #83f0ed;
+    background-color:#c8f2ff;
 }
 header{
-    background-color: #83f0ed;
+    background-color: #c8f2ff;
 }

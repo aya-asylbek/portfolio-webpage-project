@@ -8,10 +8,12 @@ body {
     font-family: "Poppins", serif;
         font-weight: 400;
         font-style: normal;
-        
-      }
+        background-color: blue;
+}
 h1 {
-    color: #39a59e;
+    color: hsl(182, 75%, 44%);
+    /*border: 2px solid;*/
+    padding: 10px;
 }
 .social-media-links i {
     margin-right: 10px; 
@@ -39,12 +41,9 @@ h1 {
 .social-media-links a {
     text-decoration: none;
     color: #333; 
-    font-size: 18px; 
-}
-
-.social-media-links i {
+    font-size: 18px;
     margin-right: 5px;
-}
+} 
 .container {
     text-align: center; 
     padding: 20px; 
@@ -78,11 +77,15 @@ i {
     padding: 20px;
 }
 .grid-item {
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*Override color*/
+.grid-container .grid-item {
+    background-color: lightblue;
 }
 .profile-img {
     max-width: 100%;
@@ -107,4 +110,8 @@ i {
     display: flex;
     align-items: center;
     gap: 10px; 
+}
+.about {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; /* Define grid columns */
 }

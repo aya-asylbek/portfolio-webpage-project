@@ -26,7 +26,7 @@
         </div>
     </header>
     <main class="grid-container">
-        <!--About me Section-->
+        <!--About me-->
     <section id="about"class="grid-item">
         <h3>About Me</h3>
         <p>I am a passionate Software engineer in training, working on expanding my skills in coding, problem-solving, and tech development.</p>
@@ -35,14 +35,48 @@
     <section id="my-photo"class="grid-item">
         <img src="my-photo.jpg" alt="my-photo" class="profile-img">
     </section>
-    <!--Social media links-->
-    <section id="social-media-links"class="grid-item">
-        <ul class="social-media-links">
-            <li><a href="https://www.linkedin.com/in/aya-asylbek/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></li>
-            <li><a href="https://github.com/aya-asylbek" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a></li>
-            <li><a class="email-link" href="mailto:aichurek0990@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a></li>
-        </ul>
+    <!--Social media-->
+    <section id="social-media-links" class="grid-item">
+        <h3>Connect with Me</h3>
+        <div class="social-media-grid">
+            <a href="https://www.linkedin.com/in/aya-asylbek/" target="_blank" class="social-link">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/aya-asylbek" target="_blank" class="social-link">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="mailto:aichurek0990@gmail.com" class="social-link">
+                <i class="fa-solid fa-envelope"></i> Email
+            </a>
+        </div>
     </section>
+    <!--HTML form-->
+    <section id="hire-me" class="grid-item">
+        <h3>Hire Me</h3>
+        <form>
+            <div>
+                <label for="name" class="formLabel">Name</label>
+                <input id="name" type="text" required>
+            </div>
+            <div>
+                <label for="email" class="formLabel">Email</label>
+                <input id="email" type="email" required>
+            </div>
+            <div>
+                <label for="phone" class="formLabel">Phone Number</label>
+                <input id="phone" type="tel">
+            </div>
+            <div>
+                <label for="address" class="formLabel">Address</label>
+                <input id="address" type="text">
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    
 </body>
 </html>
 

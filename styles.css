@@ -85,7 +85,8 @@ i {
 }
 .profile-img {
     max-width: 100%;
-    border-radius:8px;
+    border-radius:100%;
+
 }
 .formLabel{
     width:80px;

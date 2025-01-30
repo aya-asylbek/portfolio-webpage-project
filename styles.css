@@ -5,7 +5,8 @@ body {
     font-family: "Poppins", serif;
         font-weight: 400;
         font-style: normal;
-        background-color: blue;
+        background-color: rgb(137, 137, 247);
+
 }
 h1 {
     color: hsl(182, 75%, 44%);
@@ -44,6 +45,7 @@ h1 {
     text-align: center; 
     padding: 20px; 
     margin-top: 50px; 
+    border:2px solid #83f0ed;
 }
 i {
     margin-left: 10px; 
@@ -71,6 +73,7 @@ i {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px; 
     padding: 20px;
+    background-color: rgb(133, 211, 240);
 }
 .grid-item {
     background-color: #f9f9f9;
@@ -85,7 +88,7 @@ i {
 }
 .profile-img {
     max-width: 100%;
-    border-radius:100%;
+    border-radius:30%;
 
 }
 .formLabel{
@@ -114,4 +117,13 @@ i {
     grid-template-columns: 1fr 1fr; 
     font-size: 1rem;
     line-height: 1.6;
+}
+div.container{
+    background-color: #83f0ed;
+}
+html{
+    background-color: #83f0ed;
+}
+header{
+    background-color: #83f0ed;
 }

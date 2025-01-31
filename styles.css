@@ -112,7 +112,7 @@ i {
     align-items: center;
     gap: 10px; 
 }
-*/Change display property*/
+/*Change display property*/
 .about {
     display: grid; 
     grid-template-columns: 1fr 1fr; 

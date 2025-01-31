@@ -84,7 +84,8 @@ i {
 }
 /*Override color*/
 .grid-container .grid-item {
-    background-color: lightblue;
+    background-color: lightblue !important;
+    background-color: rgb(179, 15, 15);
 }
 .profile-img {
     max-width: 100%;

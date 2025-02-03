@@ -25,7 +25,7 @@ This portfolio is a demonstration of my growth in software development, includin
 --- Steps:
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/aya-asylbek/portfolio-website.git
+    git clone https://aya-asylbek.github.io/portfolio-webpage-project/git
     ```
 
 2. Navigate to the project directory:
@@ -36,7 +36,7 @@ This portfolio is a demonstration of my growth in software development, includin
 
 ----Live Demo
 
-Check out the live version of my portfolio on GitHub Pages: Live Portfolio (https://aya-asylbek.github.io/portfolio-website)
+Check out the live version of my portfolio on GitHub Pages: Live Portfolio https://aya-asylbek.github.io/portfolio-webpage-project/
 
 ---License
 

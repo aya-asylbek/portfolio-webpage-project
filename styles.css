@@ -73,7 +73,7 @@ i {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px; 
     padding: 20px;
-    background-color: rgb(133, 211, 240);
+    background-color: rgb(166, 227, 249);
 }
 .grid-item {
     background-color: #f9f9f9;
@@ -127,4 +127,7 @@ html{
 }
 header{
     background-color: #c8f2ff;
+}
+main {
+    min-height: 200vh; 
 }

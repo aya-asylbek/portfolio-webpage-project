@@ -73,7 +73,7 @@ i {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px; 
     padding: 20px;
-    background-color: rgb(166, 227, 249);
+    background-color: rgb(194, 237, 253);
 }
 .grid-item {
     background-color: #f9f9f9;
@@ -84,7 +84,7 @@ i {
 }
 /*Override color*/
 .grid-container .grid-item {
-    background-color: lightblue !important;
+    background-color: rgb(197, 238, 251) !important;
     background-color: rgb(179, 15, 15);
 }
 .profile-img {

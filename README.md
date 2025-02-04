@@ -24,15 +24,14 @@ This portfolio is a demonstration of my growth in software development, includin
 
 --- Steps:
 1. Clone this repository to your local machine:
-    ```bash
+
     git clone https://aya-asylbek.github.io/portfolio-webpage-project/git
-    ```
 
 2. Navigate to the project directory:
-    ```bash
+
     cd portfolio-website
-    ```
-3. Open `index.html` in your preferred browser to view the portfolio website.
+
+3. Open index.html in your preferred browser to view the portfolio website.
 
 ----Live Demo
 

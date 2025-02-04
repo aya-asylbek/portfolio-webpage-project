@@ -58,6 +58,7 @@
     </section>
        <!--Photo-->
     <section id="my-photo"class="grid-item">
+        <!--Alt text-->
         <img src="my-photo.jpg" alt="Aya Asylbek" class="profile-img">
     </section>
     
@@ -86,14 +87,14 @@
     <!--Hire me-->
     <section id="hire-me" class="grid-item">
         <h3>Hire Me</h3>
-        <form>
+        <form role="form">
             <div>
                 <label for="name" class="formLabel">Name <span class="required">*</span></label>
-                <input id="name" type="text" placeholder="Enter your name" required>
+                <input id="name" type="text" placeholder="Enter your name" required aria-required="true"><!--First aria attribute-->
             </div>
             <div>
                 <label for="email" class="formLabel">Email <span class="required">*</span></label>
-                <input id="email" type="email" placeholder="Enter your email " required>
+                <input id="email" type="email" placeholder="Enter your email " required aria-labelledby="emailLabel"><!--Second aria attribute-->
             </div>
             <div>
                 <label for="phone" class="formLabel">Phone Number</label>
